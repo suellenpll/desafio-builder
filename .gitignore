@@ -158,3 +158,63 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Ignorar arquivos e diretórios específicos do Airflow
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de cache
+*.cache
+
+# Ignorar arquivos de banco de dados
+*.db
+
+# Ignorar diretórios de resultados
+*.results
+
+# Ignorar diretórios de logs
+logs/
+
+# Ignorar diretórios de dados
+data/
+
+# Ignorar diretórios de plugins personalizados (se estiver usando)
+plugins/
+
+# Ignorar diretórios de ambiente virtual (se estiver usando)
+venv/
+
+# Ignorar diretórios de arquivos temporários (se aplicável)
+tmp/
+temp/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar arquivos específicos do Airflow
+airflow.cfg
+
+# Ignorar arquivos de credenciais (não versione senhas ou chaves de API)
+credenciais.txt
+
+# Ignorar arquivos de ambiente (não versione ambientes virtuais)
+.env
+.env.*
+
+# Ignorar arquivos gerados ou compilados
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.o
+*.so
+*.dll
+
+# Ignorar arquivos de ambiente de desenvolvimento específicos (por exemplo, Visual Studio Code)
+.vscode/
+*.code-workspace
+
+# Ignorar arquivos de sistema e caches
+.DS_Store
+Thumbs.db
